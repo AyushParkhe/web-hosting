@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Signup</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" id="fullname" placeholder="Enter Full Name" required>
+            <input type="email" id="email" placeholder="Enter Email" required>
+            <input type="text" id="username" placeholder="Choose Username" required>
+            <input type="password" id="password" placeholder="Create Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <button type="submit">Sign Up</button>
+            <p id="error-message" style="color: red;"></p>
+        </form>
+        <p style="text-align: center; margin-top: 15px;">Already have an account? <a href="index.html" style="color: #ffcc00; text-decoration: none;">Login</a></p>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
